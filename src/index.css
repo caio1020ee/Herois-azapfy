@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Custom css att hover card */
+
+a.card_hero_container {
+  cursor: pointer;
+  transition: all .3s linear;
+  text-decoration: none !important;
+}
+
+a.card_hero_container:hover {
+  transform: scale(1.04);
+}
+
+/* Custom css att button close modal*/
+
+.btn-close {
+  background: transparent url(../src/assets/close-btn.png) center/1em auto no-repeat !important;
+}
+.btn-close:hover {
+  opacity: 1 !important;
+}
+
+/* Custom css att Modal styles */
+
+.modal-hero_image {
+  max-width: 100%;
+}
+
+
+.modal-dialog {
+  max-width: 700px !important;
+}
