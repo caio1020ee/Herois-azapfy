@@ -17,6 +17,21 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-  
+  <script>
+const NotFoundArea = styled.div`
+    height: calc(100vh - 200px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+`;
+const NotFound = ()=>{
+    return (
+        <NotFoundArea>
+            <h1>Você e um super que consegui encontrar um erro 404 na nossa página.não se preocupe volte a navegar novamente</h1>
+        </NotFoundArea>
+    )
+}
+
+
   </body>
 </html>
