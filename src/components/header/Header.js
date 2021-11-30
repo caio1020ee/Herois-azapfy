@@ -70,6 +70,9 @@ const superheroapi = {
 
 
 export default ()=> superheroapi;
+import styled from 'styled-components';
+
+export const HeaderArea = styled.div`
 
 
 background-color: #48ABC2;
